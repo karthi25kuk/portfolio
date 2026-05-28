@@ -23,7 +23,7 @@ function Projects() {
           <Projectcard
             title="Portfolio Website"
             description="A modern and responsive portfolio website built using React and Tailwind CSS, showcasing projects, technical skills, and professional experience through an interactive and user-friendly interface. Features include smooth navigation, responsive design for multiple devices, reusable React components, and clean modern styling for enhanced user engagement."
-            projecturl="https://github.com/yourusername/portfolio-website"
+            projecturl="https://github.com/karthi25kuk/portfolio"
             type="software"
             classification="Personal"
           />

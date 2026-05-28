@@ -1,8 +1,10 @@
 function Hero() {
   return (
-    <section className="bg-gradient-to-br from-black via-black/50 to-black w-full grid md:grid-cols-2 items-center px-6 md:px-16">
+    <section className="bg-gradient-to-br from-black via-black/50 to-black w-full py-16 px-6">
 
-      <div className="space-y-6">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 items-center md:px-16 gap-8">
+
+        <div className="space-y-6">
         <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-yellow-200 to-orange-400 bg-clip-text text-transparent">
           KARTHIKEYAN K
         </h1>
@@ -34,7 +36,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="flex justify-center mt-12 md:mt-0">
+        <div className="flex justify-center mt-12 md:mt-0">
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl blur-xl opacity-30"></div>
           <img
@@ -43,6 +45,8 @@ function Hero() {
             className="relative w-80 md:w-96 rounded-2xl shadow-2xl border-4 border-gray-800"
           />
         </div>
+        </div>
+
       </div>
 
     </section>

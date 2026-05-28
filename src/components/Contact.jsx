@@ -19,7 +19,7 @@ function Contact() {
           <div className="space-y-10">
 
             {/* Contact Info */}
-            <div className="bg-gray-900 border border-gray-800 p-6 rounded-2xl">
+            <div className="bg-gray-900 border border-gray-800 lg:p-6 rounded-2xl">
               <h3 className="text-xl font-semibold text-sky-400 mb-6">
                 Contact Information
               </h3>
@@ -70,12 +70,12 @@ function Contact() {
                 Connect With Me
               </h3>
 
-              <div className="flex gap-4">
+              <div className="flex flex-wrap gap-4 justify-center">
                 <a
                   href="https://www.linkedin.com/in/karthikeyan-k-2b4a6527a/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-5 py-3 bg-blue-600 rounded-lg text-white hover:bg-blue-700 transition"
+                  className="flex items-center justify-center gap-2 px-5 py-3 bg-blue-600 rounded-lg text-white hover:bg-blue-700 transition min-w-[180px]"
                 >
                   <Share2 size={18} /> LinkedIn
                 </a>
@@ -84,7 +84,7 @@ function Contact() {
                   href="https://github.com/karthi25kuk"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-5 py-3 bg-gray-800 rounded-lg text-white hover:bg-gray-700 transition"
+                  className="flex items-center justify-center gap-2 px-5 py-3 bg-gray-800 rounded-lg text-white hover:bg-gray-700 transition min-w-[180px]"
                 >
                   <Code size={18} /> GitHub
                 </a>

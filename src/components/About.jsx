@@ -61,21 +61,21 @@ function About() {
           </div>
 
           {/* Traits Section */}
-          <div className="flex flex-around gap-4 bg-gradient-to-br from-gray-800 to-gray-900 h-half p-15 rounded-2xl border border-gray-800">
+          <div className="flex flex-wrap justify-center gap-4 bg-gradient-to-br from-gray-800 to-gray-900 py-8 lg:py-15 px-6 rounded-2xl border border-gray-800 hover:border-blue-500 transition">
 
-            <div className="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-5 py-3 rounded-full font-medium shadow-lg">
+            <div className="min-w-[160px] bg-gradient-to-r from-gray-500 to-gray-600 text-white px-5 py-3 rounded-full font-medium shadow-lg hover:text-amber-300 transition">
               Problem Solver
             </div>
 
-            <div className="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-5 py-3 rounded-full font-medium shadow-lg">
+            <div className="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-5 py-3 rounded-full font-medium shadow-lg hover:text-amber-300 transition">
               Team Player
             </div>
 
-            <div className="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-5 py-3 rounded-full font-medium shadow-lg">
+            <div className="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-5 py-3 rounded-full font-medium shadow-lg hover:text-amber-300 transition">
               Quick Learner
             </div>
 
-            <div className="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-5 py-3 rounded-full font-medium shadow-lg">
+            <div className="min-w-[160px] bg-gradient-to-r from-gray-500 to-gray-600 text-white px-5 py-3 rounded-full font-medium shadow-lg hover:text-amber-300 transition">
               Coding Enthusiast
             </div>
 
@@ -85,7 +85,7 @@ function About() {
 
         {/* RIGHT SIDE - Quick Facts */}
         <div className="lg:col-span-1">
-          <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 h-full">
+          <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 h-full hover:border-blue-500 transition">
 
             <h3 className="text-2xl font-semibold text-sky-400 mb-6">
               Quick Facts
